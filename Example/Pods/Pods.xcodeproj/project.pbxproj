@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		273A10E79104C36F0AF8E07634C6ECFE /* MyLibrary-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8451887C55958A4B54972F1667479936 /* MyLibrary-dummy.m */; };
 		39A63C58265CD2E7FD7784AAD3CE8482 /* Pods-MyLibrary_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DF96EABD1B4A6110D5DD294F477F394 /* Pods-MyLibrary_Tests-dummy.m */; };
-		4F5C70C0CA7373E6AD9C8D09D9495917 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 20DDB9B64E11A9DAD1FB90D4A21D3A9D /* ReplaceMe.m */; };
 		573D73F54742256FDC6E38D06106DBCB /* Pods-MyLibrary_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 77FC264D9D53B5DE7E2D0437F6530FA9 /* Pods-MyLibrary_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		798F0152FFA1A52B88489BFE818FE8A8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		7E36BFF81E26ABD93581A171CCF1C7D5 /* MyLibrary-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0405C21CD62B31FBB7CC08B49FED44D3 /* MyLibrary-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -49,7 +48,6 @@
 		1408DC94FBE042BB4527399503553D64 /* Pods-MyLibrary_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MyLibrary_Tests.modulemap"; sourceTree = "<group>"; };
 		1BF112E818DD1AC90DEB5971C449F698 /* MyLibrary-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MyLibrary-prefix.pch"; sourceTree = "<group>"; };
 		1F9A5082A7F882FF0B350FF3DE554D16 /* Pods-MyLibrary_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MyLibrary_Example-frameworks.sh"; sourceTree = "<group>"; };
-		20DDB9B64E11A9DAD1FB90D4A21D3A9D /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = MyLibrary/Classes/ReplaceMe.m; sourceTree = "<group>"; };
 		2E568AB6E6B11EED5DA3D8687477830F /* Pods-MyLibrary_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MyLibrary_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		32B58268D3C03E7A333260004C05F258 /* Pods-MyLibrary_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MyLibrary_Example.modulemap"; sourceTree = "<group>"; };
@@ -223,7 +221,6 @@
 		DA66E8E50D05AE8174D8789381322C56 /* MyLibrary */ = {
 			isa = PBXGroup;
 			children = (
-				20DDB9B64E11A9DAD1FB90D4A21D3A9D /* ReplaceMe.m */,
 				E2B7CD9B2528A9DC00A6AB76 /* jktangguoan.h */,
 				E2B7CD9C2528A9DC00A6AB76 /* jktangguoan.m */,
 				4CDFA946CAA26273742E3A65841773E7 /* Pod */,
@@ -381,7 +378,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				273A10E79104C36F0AF8E07634C6ECFE /* MyLibrary-dummy.m in Sources */,
-				4F5C70C0CA7373E6AD9C8D09D9495917 /* ReplaceMe.m in Sources */,
 				E2B7CDA02528A9DC00A6AB76 /* jktangguoan.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
